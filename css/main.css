@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../font/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("../font/Montserrat-Medium.ttf") format("truetype");
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #debdb0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  overflow: hidden;
+  font-family: Montserrat-Regular;
+  color: #712632;
+  text-transform: uppercase;
+}
+
+a {
+  font-family: Montserrat-Medium;
+  color: #712632;
+}
+
+.logo {
+  flex-grow: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 75%;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social {
+}
